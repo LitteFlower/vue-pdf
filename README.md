@@ -1,5 +1,5 @@
 # vue-pdf
-vue.js pdf viewer
+vue.js pdf viewer 由于项目静态资源采用cdn加速（beikewen.com）不在项目域名（mishi.com），webworker同源策略做严格限制，故须手动关闭
 
 ## Install
 ```
