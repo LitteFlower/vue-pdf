@@ -10,8 +10,8 @@
 
 		if ( typeof window !== 'undefined' && 'Worker' in window ) {
 
-			var PdfjsWorker = require('worker-loader!pdfjs-dist/build/pdf.worker.js');
-			PDFJS.GlobalWorkerOptions.workerPort = new PdfjsWorker();
+			// var PdfjsWorker = require('worker-loader!pdfjs-dist/build/pdf.worker.js');
+			// PDFJS.GlobalWorkerOptions.workerPort = new PdfjsWorker();
 		}
 	}
 
